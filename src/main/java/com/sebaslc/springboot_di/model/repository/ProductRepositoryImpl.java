@@ -1,13 +1,11 @@
 package com.sebaslc.springboot_di.model.repository;
 
 import com.sebaslc.springboot_di.model.entity.Product;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.List;
 
-@Primary
 @Repository
 public class ProductRepositoryImpl implements ProductRepository {
     private List<Product> data;
